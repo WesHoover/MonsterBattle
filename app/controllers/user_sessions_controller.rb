@@ -1,6 +1,5 @@
 class UserSessionsController < ApplicationController
   skip_before_filter :require_login, except: [:destroy]
-  protect_from_forgery with: :null_session
 
   def new
     @user = User.new

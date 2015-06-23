@@ -1,4 +1,7 @@
 class MonstersController < ApplicationController
+    def index 
+        @monsters = Monster.all
+    end
 
 	def new
         #Makes a new form, but does not save to database

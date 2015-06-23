@@ -9,6 +9,10 @@ class MatchesController < ApplicationController
 
 	def create
 		@match = Match.new(match_params)
+	end
+
+	def user_matches  
+		@matches = Match.personal_matches(current_user)
 	end 
 
 end

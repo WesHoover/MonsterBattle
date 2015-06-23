@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+fartface = Monster.create([{name: "fartface"}, {attack: 5}, {defense: 7}])
+monster2 = Monster.create([{name: "mothra"}, {attack: 8}, {defense: 2}])
+fakematch = Match.create([{monster1: 1}, {monster2: 2}, {winner: 2}])

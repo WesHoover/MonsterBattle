@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+/* "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*Header Styling*/
+li {
+  display: inline;
+}
+nav {
+  background-color: Wheat;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.nav .navbar-brand {
+  text-align: center;
+  font-family: Rhodium Libre;
+  background-color: white;
+}
+
+/*Body Styling*/
+body {
+  background-color: #505073;
+  text-align: center;
+}
+tbody th {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Footer Styling*/

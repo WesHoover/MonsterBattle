@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-
+  protect_from_forgery with: :null_session
   skip_before_filter :require_login, only: [:index, :new, :create]
 
 
@@ -88,5 +88,5 @@ class UsersController < ApplicationController
     #   params.require(:user).permit(:email, :crypted_password, :salt)
     # end
 
-   
+
 end

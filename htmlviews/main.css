@@ -1,0 +1,21 @@
+li {
+  display: inline;
+}
+nav{
+  background-color: Wheat;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+
+body {
+  background-color: #505073;
+}
+.navbar-header .navbar-brand{
+  text-align: center;
+  font-family: Rhodium Libre;
+  background-color: white;
+}

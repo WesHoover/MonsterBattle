@@ -17,8 +17,8 @@
 
 function clicker() {
 	$('.name').click(function(){
-		console.log("herpderp");
-		 //$(".monsterPics").effect( "highlight", {color:"#669966"}, 3000 );
+		//console.log("herpderp");
+		$(".monsterPics").effect( "highlight", {color:"#669966"}, 3000 );
     });
 }
 

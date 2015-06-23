@@ -14,3 +14,20 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function clicker() {
+	$('.name').click(function(){
+		console.log("herpderp");
+		 //$(".monsterPics").effect( "highlight", {color:"#669966"}, 3000 );
+    });
+}
+
+// //stat generator for monster 1 and 2
+// function stats(monster1, monster2) {
+
+// }
+
+// //monster combat function
+// function combat(monster1, monster2) {
+
+// }

@@ -15,19 +15,22 @@
 //= require turbolinks
 //= require_tree .
 
-function clicker() {
-	$('.name').click(function(){
-		//console.log("herpderp");
-		$(".monsterPics").effect( "highlight", {color:"#669966"}, 3000 );
-    });
+//Button only works if clicked twice here.
+//This is supposed to select your monster and an opponent
+//which will be later used in function stats
+// function clicker() {
+// 	$('.nameButton').click(function(){
+// 		//console.log("herpderp");
+// 		//$(".monsterPics").effect( "highlight", {color:"#669966"}, 3000 );
+//     });
+// }
+
+// stat generator for monster 1 and 2
+function stats(monster1, monster2) {
+
 }
 
-// //stat generator for monster 1 and 2
-// function stats(monster1, monster2) {
+// monster combat function
+function combat(monster1, monster2) {
 
-// }
-
-// //monster combat function
-// function combat(monster1, monster2) {
-
-// }
+}

@@ -1,3 +1,5 @@
+
+<!-- List of User selectable monster for fight -->
 <div class="col-md-4">
   <div class="monsterPics"><%= image_tag "monster_bat.jpg", :size => '200x180' %></div>
   <button class="nameButton">Bob</button>
@@ -17,6 +19,7 @@
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
+<!-- List of enemy monsters with which a user's selected monster could do battle -->
 <div class="col-md-4">
   <div class="monsterPics"><%= image_tag "monster_elephant.jpg", :size => '200x180' %></div>
   <button class="nameButton" onclick="clicker()"> Sean's Banana</button>
@@ -31,10 +34,10 @@
   <button class="nameButton" onclick="clicker()">Steve</button>
 </div>
 
-
+<!-- START MATCH BUTTON -->
   <button class="battleStart">Let's butter this muffin.</button>
 
-
+<!-- MONSTER SELECT HIGHLIGHT Event Listener -->
 <script>
     $('.nameButton').click(function(){
       //console.log("herpderp");
